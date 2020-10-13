@@ -1,0 +1,8 @@
+.post{
+  padding: .2em .2em;
+  background-color: white;
+}
+
+.post img {
+  width: 30px;
+}

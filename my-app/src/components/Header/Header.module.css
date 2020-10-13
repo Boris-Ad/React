@@ -1,0 +1,10 @@
+.header {
+  grid-column: 1/3;
+  grid-row: 1/2;
+  background-color: rgb(116, 105, 110);
+  padding: 0.5em;
+}
+
+.header img {
+  width: 3em;
+}

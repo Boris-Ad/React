@@ -1,0 +1,19 @@
+.sidebar {
+  grid-column: 1/2;
+  grid-row: 2/3;
+  background-color: sandybrown;
+  padding: 2em;
+  
+}
+.sidebar .links{
+  margin: 0;
+  padding: 0;
+}
+
+.sidebar .links * + * {
+  margin-top: 0.5em;
+}
+
+.sidebar .links  a{
+  color: white;
+}

@@ -1,9 +1,12 @@
 import React from "react";
 
 import "./App.css";
-import Aside from "./components/Aside";
-import Header from "./components/Header";
-import Main from "./components/Main";
+import Aside from "./components/Aside/Aside";
+import Footer from "./components/Footer/Footer";
+import Header from "./components/Header/Header";
+import Main from "./components/Main/Main";
+
+
 
 const App = () => {
   return (
@@ -11,6 +14,7 @@ const App = () => {
     <Header />
     <Aside />
     <Main />
+    <Footer />
     </div>
   );
 };

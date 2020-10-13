@@ -1,0 +1,21 @@
+.main {
+  grid-column: 2/3;
+  grid-row: 2/3;
+  display: grid;
+  grid-template: auto 1fr 1fr / 1fr;
+  background-color: rosybrown;
+}
+
+.main .banner {
+  grid-column: 1 / 5;
+  background-image: url(./../img/fot.jpg);
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  padding: 2em 1.5em;
+ 
+}
+.main .banner  h2{
+  font-family: Arial, Helvetica, sans-serif;
+   color: white;
+}
