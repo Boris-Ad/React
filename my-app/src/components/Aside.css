@@ -1,0 +1,7 @@
+.sidebar {
+  background-color: sandybrown;
+}
+
+.sidebar .links * + * {
+  margin-top: 0.5em;
+}
