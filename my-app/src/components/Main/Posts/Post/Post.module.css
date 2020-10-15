@@ -1,8 +1,23 @@
 .post{
   padding: .2em .2em;
-  background-color: white;
+  
 }
 
 .post img {
   width: 30px;
+  margin-right: 1em;
+}
+
+.post_top{
+  display: flex;
+  align-items: center;
+  background-color: white;
+}
+.post button{
+  display: block;
+  padding: .1em .3em;
+  border: 1px solid gray;
+  background-color: white;
+  margin-top: .3em;
+  cursor: pointer;
 }

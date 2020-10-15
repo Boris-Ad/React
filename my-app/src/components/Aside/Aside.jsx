@@ -5,10 +5,11 @@ const Aside = () => {
         <aside className = {s.sidebar}>
         <nav>
           <ul className = {s.links}>
-            <li><a href = "/">Главная</a></li>
-            <li><a href = "/">Условия</a></li>
-            <li><a href = "/">Цены</a></li>
-            <li><a href = "/">О нас</a></li>
+            <li><a href = "/profile">Profile</a></li>
+            <li><a href = "/messages">Messages</a></li>
+            <li><a href = "/news">News</a></li>
+            <li><a href = "/music">Music</a></li>
+            <li><a href = "/setting">Setting</a></li>
           </ul>
         </nav>
       </aside>

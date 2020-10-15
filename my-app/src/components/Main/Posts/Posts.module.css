@@ -4,6 +4,6 @@
 textarea{
     resize: none;
 }
-.posts * + *{
+.posts > * + *{
     margin-top: .2em;
 }

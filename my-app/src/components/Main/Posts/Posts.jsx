@@ -16,8 +16,8 @@ const Posts = () => {
           <input type="submit" value="Отправить"></input>
         </p>
       </form>
-      <Post message="Hello, how are you?" />
-      <Post message="I em fine!" />
+      <Post message="Hello, how are you?" like = "1"/>
+      <Post message="I em fine!" like = "0" />
     </div>
   );
 };
