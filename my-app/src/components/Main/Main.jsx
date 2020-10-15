@@ -6,8 +6,8 @@ const Main = () => {
     return (
         <main className = {s.main}>
         <div className = {s.banner}>
-            <h2>Lorem ipsum dolor sit amet </h2>
-            <h2>consectetur adipisicing elit. Delectus, optio?</h2>
+            <h1>Lorem ipsum dolor sit amet </h1>
+            <h1>consectetur adipisicing elit. Delectus, optio?</h1>
         </div>
         <Posts />
         </main>

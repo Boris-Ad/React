@@ -1,11 +1,13 @@
 .header {
   grid-column: 1/5;
   grid-row: 1/2;
-  background-color: rgb(116, 105, 110);
-  padding: 1em;
+  display: flex;align-items: center;
+  background-color: #8C5230;
+  color: white;
 }
 
 .header img {
+  display: block;
   width: 3em;
-  margin-left: 2em;
+  margin: 0 2em;
 }
