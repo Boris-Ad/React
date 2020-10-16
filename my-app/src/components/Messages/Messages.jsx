@@ -1,17 +1,36 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 import s from "./Messages.module.css";
+
+const MessageItem = (props) => {
+  return (
+    <div className={s.dialogs_item}>
+      <NavLink to={"/messages/" + props.id}> {props.name} </NavLink>
+    </div>
+  );
+};
+
+const DialogsTextItem = (props) => {
+  return (
+    <div className={s.dialogs_text_item}>
+      <p>{props.text}</p>
+    </div>
+  );
+};
+
 const Messages = (props) => {
   return (
     <div className={s.wrapper}>
       <div className={s.dialogs}>
-        <div className = {s.dialogs_item}><a href = "/">Adam</a></div>
-        <div className = {s.dialogs_item}><a href = "/">Eva</a></div>
-        <div className = {s.dialogs_item}><a href = "/">Viper</a></div>
+        <MessageItem name="Adam" id="1" />
+        <MessageItem name="Eva" id="2" />
+        <MessageItem name="Viper" id="3" />
+        <MessageItem name="Cat" id="4" />
       </div>
       <div className={s.dialogs_text}>
-      <div className = {s.dialogs_text_item}><p>Hi</p></div>
-      <div className = {s.dialogs_text_item}><p>I want to be yong</p></div>
-      <div className = {s.dialogs_text_item}><p>i am animal</p></div>
+        <DialogsTextItem text="Hi" />
+        <DialogsTextItem text="I want to be yong" />
+        <DialogsTextItem text="i am animal" />
       </div>
     </div>
   );

@@ -1,18 +1,19 @@
 import React from "react";
-import s from './Main.module.css';
+import s from "./Main.module.css";
 import Posts from "./Posts/Posts";
+import Profile from "./Posts/Profile/Profile";
 
 const Main = () => {
-    return (
-        <main className = {s.main}>
-        <div className = {s.banner}>
-            <h1>Lorem ipsum dolor sit amet </h1>
-            <h1>consectetur adipisicing elit. Delectus, optio?</h1>
-        </div>
-        <Posts />
-        </main>
+  return (
+    <main className={s.main}>
+      <div className={s.banner}>
         
-    );
+        <Profile />
+      </div>
+
+      <Posts />
+    </main>
+  );
 };
 
 export default Main;

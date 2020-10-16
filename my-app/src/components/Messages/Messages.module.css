@@ -14,7 +14,12 @@
     padding: 0 1em;
 }
 
-.dialogs a{
-    display: block;
+.dialogs_item{
+    color: #cccccc;
     margin: 1em 0;
+}
+
+.dialogs_item a{
+    color: black;
+   
 }
